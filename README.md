@@ -1,4 +1,4 @@
 # html-css
  Curso em video
- iiuuuuuuuuuuuu
+<a href = "https://argao.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio 001</a>
  
