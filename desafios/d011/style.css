@@ -1,24 +1,19 @@
 @charset "UTF-8";
-*{
-    margin: 0px;
-    padding: 0px;
-}
-html{
-    width: 100vh;
-    height: 100vh;
-}
+
 body{    
-    height: 100%;
-    width: 100%;
+    caret-color: black;
+    height: 98vh;
     background-image: url(imagens/espaco.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
 }
 img{
-    width: 20%;
-    display: block;
-    margin: auto;
-   
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
