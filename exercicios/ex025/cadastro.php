@@ -1,5 +1,5 @@
 <?php 
-    $nome = $_POST['nome'];
-    $sobrenome = $_POST['sobrenome'];
-    echo "Nome: $nome $sobrenome";
+    $nome = $_GET['nome'];
+    $media = $_GET['media'];
+    echo "Nome: $nome $media";
 ?>
