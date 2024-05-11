@@ -10,7 +10,16 @@ function clickMenu() {
         itens.style.display = 'flex'
         estaClicado = true
     }
+}
 
+function verificaTamanho() {
+    var itens = document.getElementById('itens')
+
+    if (window.innerWidth > 580 || estaClicado){
+        itens.style.display = 'flex'
+    } else {
+       itens.style.display = 'none'
+    }
 }
 
 
